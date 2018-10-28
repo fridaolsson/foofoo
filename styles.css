@@ -15,7 +15,7 @@ a:hover {
 
 /* header */
 .image-container {
-  background-image: url("ug3r%fY7T82ryf28kOpRDg_thumb_10d4.jpg");
+  background-image: url("creations.jpg");
   /* The image used - important! */
   background-size: cover;
   position: relative;
@@ -117,7 +117,7 @@ a:hover {
 .item3 {
   background-color: rgba(255, 255, 255, 0.68);
   font-family: raleway;
-    padding: 10px;
+  padding: 10px;
 }
 
 .item5 {
