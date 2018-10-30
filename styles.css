@@ -32,11 +32,11 @@ a:hover {
   background-color: white;
   color: black;
   font-size: 10px;
-  font-size: 10vw;
+  font-size: 40px;
   font-weight: bold;
   margin: 0 auto;
   padding: 20px;
-  width: 80%;
+  width: 400px;
   text-align: center;
   position: absolute;
   top: 50%;
@@ -47,15 +47,17 @@ a:hover {
 
 .menu {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .menu li {
-  font-size: 15px;
+  font-size: 19px;
   display: inline;
   list-style-type: none;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 65px;
+  padding-right: 65px;
   font-family: 'Amatic SC', cursive;
 }
 
@@ -91,8 +93,9 @@ a:hover {
 
 .item1 {
   font-size: 40px;
-  font-family: raleway;
-  background-color: rgba(255, 255, 255, 255);
+  color: rgb(255, 255, 255);
+  font-family: arial;
+  background-color: rgba(247, 56, 153, 0.57);
   text-align: center;
 }
 
@@ -118,6 +121,11 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.68);
   font-family: raleway;
   padding: 10px;
+    text-align: justify;
+}
+
+.item3 h1 {
+  text-align: right;
 }
 
 .item5 {
